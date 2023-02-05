@@ -1,0 +1,33 @@
+
+Create template
+npx create-next-app portfolio --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
+
+This starts your Next.js app’s "development server" (more on this later) on port 3000.
+npm run dev
+
+npm run lint 
+
+npm run build & npm run start
+
+Install MUI
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+
+Third-party
+npm install --save react-particles
+npm install --save tsparticles
+npm install --save typewriter-effect
+npm install --save @mui/styles
+npm install --save @fontsource/roboto
+npm install --save firebase
+npm install --save-dev -g firebase-tools
+
+firebase login
+
+
+git init
+git add --all
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rubencg195/nextjs-portfolio.git
+git push -u origin main

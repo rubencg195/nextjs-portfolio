@@ -2,11 +2,13 @@
 
 # dependencies
 /node_modules
-/.pnp
+.pnp
 .pnp.js
+.firebase
 
 # testing
 /coverage
+/old
 
 # next.js
 /.next/
@@ -28,3 +30,6 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Firebase keys
+firebase-config.js

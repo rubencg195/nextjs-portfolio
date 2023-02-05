@@ -1,13 +1,29 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -H ::",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.5",
+    "@mui/styles": "^5.10.6",
+    "firebase": "^9.17.1",
     "next": "latest",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-particles": "^2.3.2",
+    "tsparticles": "^2.3.2",
+    "typewriter-effect": "^2.19.0"
+  },
+  "devDependencies": {
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6"
   }
 }
